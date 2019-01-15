@@ -16,3 +16,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 }
+
+.container {
+	width: calc(100% - 30px);
+	max-width: 1024px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
