@@ -16,6 +16,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 	list-style: none;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -27,6 +28,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 #header {height: 100px;}
-#header .logo {float: left;}
+#header .logo {float: left;padding-top: 22px;}
 #header .menu {float: right;}
+#header .menu li {float: left;}
+#header .menu li a {text-transform: uppercase;font-weight: 700;text-decoration: none;color: #666;padding: 40px 20px;display: block;}
 #header .social {float: right;}
+#header .social li {float: left;}
+
+#banner {background: red;height: 300px;}
