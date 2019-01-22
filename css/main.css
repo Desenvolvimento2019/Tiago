@@ -32,7 +32,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 #header .menu {float: right;}
 #header .menu li {float: left;}
 #header .menu li a {text-transform: uppercase;font-weight: 700;text-decoration: none;color: #666;padding: 40px 20px;display: block;}
+#header .menu li a::before {content: '';height: 4px;width: 0px;display: block;background: #0096dc;border-radius: 2px;position: absolute;top: 70px;transition-duration: 0.5s}
+#header .menu li a:hover::before {width: 30px}
 #header .social {float: right;}
 #header .social li {float: left;}
+#header .social li a {padding: 38px 4px;display: block;}
+#header .social li a img {filter: grayscale(1);transition-duration: 0.5s}
+#header .social li a:hover img {filter: grayscale(0)}
 
 #banner {background: red;height: 300px;}
